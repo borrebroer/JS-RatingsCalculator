@@ -16,8 +16,8 @@ function collect_ratings() {
     }
     return ratings;
 }
-document.addEventListener("change", () => { ratings_handler() });
-function ratings_handler(){
+document.addEventListener("change", () => {
     const ratings = collect_ratings();
-    document.querySelector("#average").value = ratings.average.toFixed(2);
-}
+    document.querySelector("#average").value = ratings.average.toFixed(2); });
+
+    
